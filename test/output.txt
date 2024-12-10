@@ -1,0 +1,18 @@
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+1-70 2-100 3-300 5-300 7-20 
+2-100 3-300 5-300 7-20 
+2-100 5-300 7-20 
+300
+100
+------------------------------------------
+3-tatatta 6-ssss ssss 8-trt 9-rrrrrr r 20- 
+3-tatatta 6-ssss ssss 9-rrrrrr r 20- 
+3-tatatta 6-ssss ssss 20- 
+tatatta
+ssss ssss
+------------------------------------------
+===============================================================================
+[doctest] test cases: 2 | 2 passed | 0 failed | 0 skipped
+[doctest] assertions: 7 | 7 passed | 0 failed |
+[doctest] Status: SUCCESS!
