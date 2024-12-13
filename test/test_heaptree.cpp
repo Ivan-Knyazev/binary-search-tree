@@ -59,3 +59,21 @@ TEST_CASE("Tests for HeapTree<std::string>")
     HeapTree<std::string> test_3;
     CHECK_THROWS(test_3.Search(2));
 }
+
+void memory_check()
+{
+    HeapTree<std::string> test;
+
+    for (std::size_t i = 0; i < 100; i += 1)
+    {
+        test.Insert(i, "tatatta");
+    }
+}
+
+TEST_CASE("HeapTree<std::string> destructor and memory check")
+{
+    for (std::size_t i = 0; i < 50000; i += 1)
+    {
+        memory_check();
+    }
+}
